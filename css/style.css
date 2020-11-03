@@ -1,8 +1,4 @@
 ﻿/*
-Template Name: Bako
-Version: 1.0
-更多模板请访问：http://www.bootstrapmb.com/
-
 [TABLE OF CONTENTS]
 
 01. Base
@@ -28,7 +24,7 @@ Version: 1.0
 /*=================================================================*/
 body {
   color: #888;
-  background-color: #F6F7FF;
+  background-color: #c3c6d1;
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
   line-height: 1.7;
@@ -168,7 +164,7 @@ pre {
 /*=================================================================*/
 header.left {
   color: #FFF;
-  background: #4A63E7;
+  background: #727f91;
   border-radius: 20px;
   min-height: 620px;
   max-height: 620px;
@@ -240,6 +236,12 @@ header.left button.close {
 header a {
   color: #FFF;
 }
+header a img {
+  width: 70px;
+  height: 70px;
+  border: 4px solid #FFF;
+  border-radius: 50%;
+}
 header a:hover {
   color: #FFF;
   text-decoration: none;
@@ -296,13 +298,9 @@ header .vertical-menu li a.active:before {
   position: absolute;
   width: 3px;
 }
-header .copyright {
-  font-size: 12px;
-  opacity: 0.7;
-}
 
 .mobile-header {
-  background: #4A63E7;
+  background: #727f91;
   border-radius: 20px;
   display: none;
   -webkit-transform: translateX(0);
@@ -450,6 +448,16 @@ section.padding-60 {
   height: 5px;
   margin-top: 14px;
   width: 30px;
+}
+
+/*=================================================================*/
+/*                      ABOUT                              
+/*=================================================================*/
+#about img{
+  width: 130px;
+  height: 130px;
+  border: 4px solid #C3C6D1;
+  border-radius: 50%;
 }
 
 /*=================================================================*/
@@ -937,7 +945,7 @@ section.padding-60 {
 /*=================================================================*/
 .overlay {
   border-radius: 20px;
-  background: #4A63E7;
+  background: #727F91;
   left: 0;
   top: 0;
   opacity: 0.9;
@@ -1026,7 +1034,7 @@ section.padding-60 {
   background: #FF5959;
 }
 .btn-default:hover {
-  background: #4A63E7;
+  background: #727F91;
   color: #FFF;
   -webkit-transform: translateY(-3px);
   -moz-transform: translateY(-3px);
@@ -1040,7 +1048,7 @@ section.padding-60 {
 
 .btn-alt {
   color: #FFF;
-  background: #4A63E7;
+  background: #727F91;
 }
 .btn-alt:hover {
   color: #FFF;
@@ -1057,7 +1065,7 @@ section.padding-60 {
 
 .btn-border {
   color: #FFF;
-  background: #4A63E7;
+  background: #727F91;
 }
 .btn-border:hover {
   color: #FFF;
